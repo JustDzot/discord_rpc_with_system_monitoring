@@ -42,6 +42,7 @@
     "monitoring_3": "memory_used", 
     "monitoring_4": "swap_percent"
 }
+```
 
 
 # Примечания
