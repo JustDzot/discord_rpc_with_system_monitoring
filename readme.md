@@ -47,8 +47,8 @@
 # Примечания
   - Discord CLIENT ID можно получить на [Discord Developer Portal](https://discord.com/developers/applications)
   - Библиотеки: [pypresence](https://github.com/qwertyquerty/pypresence) и [psutil](https://github.com/giampaolo/psutil)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://python.org)
+![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 # Ближайшие обновления:
 
