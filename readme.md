@@ -9,7 +9,7 @@
 # Discord RPC with System Monitoring
 
 Мониторинг системных ресурсов с отображением в Discord статусе.
-!(Системный мониторинг)[img/system_monitoring.jpg]
+![Системный мониторинг](docs/system_monitoring.jpg)
 
 ## Текущие возможности
 
