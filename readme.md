@@ -9,6 +9,7 @@
 # Discord RPC with System Monitoring
 
 Мониторинг системных ресурсов с отображением в Discord статусе.
+!(Системный мониторинг)[img/system_monitoring.jpg]
 
 ## Текущие возможности
 
@@ -35,7 +36,7 @@
 
 ```json
 {
-    "client_id": "YOUR_CLIENT_ID_HERE",
+    "client_id": "YOUR_APPLICATION_CLIENT_ID_HERE",
     "update_interval": 5,
     "monitoring_1": "cpu_percent",
     "monitoring_2": "memory_percent",

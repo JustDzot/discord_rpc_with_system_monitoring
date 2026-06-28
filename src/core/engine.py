@@ -45,8 +45,8 @@ class RPCengine:
                         monitoring_vars[key] = config[key]
         
         data = self.monitoring.get_all_data()
-        details = f"{data.get(monitoring_vars['monitoring_1'], 0)} | {data.get(monitoring_vars['monitoring_2'], 0)}"
-        state = f"{data.get(monitoring_vars['monitoring_3'], 0)} | {data.get(monitoring_vars['monitoring_4'], 0)}"
+        details = f"{data.get(monitoring_vars['monitoring_1'], 0)} {data.get(monitoring_vars['monitoring_2'], 0)}"
+        state = f"{data.get(monitoring_vars['monitoring_3'], 0)} {data.get(monitoring_vars['monitoring_4'], 0)}"
         
         return details, state
     
@@ -56,7 +56,7 @@ class RPCengine:
             print('Connected to Discord')
             return True
         except Exception as e:
-            print(f'Check your Client ID code in settings.json \n Connection error: {e}')
+            print(f'Check your Client ID code in settings.json \nConnection error: {e}')
             return False
     
     def update_presence(self):
@@ -72,7 +72,7 @@ class RPCengine:
 
             )
             
-            print(f"Status updated: {details} | {state}")
+            print(f"Status updated: {details} | {state} | {time.strftime("%c")}")
             
         except Exception as e:
             print(f"Update error: {e}")

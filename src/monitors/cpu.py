@@ -12,7 +12,7 @@ class CpuMonitoring():
         cpu_freq_max = cpu_freq.max if cpu_freq else 0
         
         return {
-            'cpu_percent': f'CPU {round(cpu_percent, 1)} %',
-            'cpu_freq_current': f'CPU {round(cpu_freq_current, 1)} MHz',
-            'cpu_freq_max': f'CPU Max {round(cpu_freq_max, 1)} Mhz'
+            'cpu_percent': f'🖥️ CPU {round(cpu_percent, 1)} %',
+            'cpu_freq_current': f'🖥️ CPU {round(cpu_freq_current, 1)} Mhz',
+            'cpu_freq_max': f'🖥️ CPU Max {round(cpu_freq_max, 1)} Mhz'
         }

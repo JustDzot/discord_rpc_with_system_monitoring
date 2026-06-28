@@ -1,8 +1,8 @@
 {
-    "client_id": "YOUR_DISCORD_BOT_ID_HERE",
+    "client_id": "1520615914167599165",
     "update_interval": 5,
     "monitoring_1": "cpu_percent",
     "monitoring_2": "memory_percent",
-    "monitoring_3": "cpu_freq_max", 
+    "monitoring_3": "cpu_freq_current", 
     "monitoring_4": "swap_percent"
 }
